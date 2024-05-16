@@ -1,14 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   parse.c                                            :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: aabashee <aabashee@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/23 15:09:47 by ahassan           #+#    #+#             */
-/*   Updated: 2024/05/09 17:35:18 by aabashee         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
 
 #include "cub3d.h"
 /**
@@ -63,6 +52,7 @@ static char	*read_file(int fd, t_map *map)
  * @param map The map structure.
  * @param p The player structure.
  */
+
 void	parsing(int argc, char **argv, t_map *map, t_player *p)
 {
 	int		fd;
